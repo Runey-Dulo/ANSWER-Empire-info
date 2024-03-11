@@ -1,0 +1,37 @@
+body{
+    font-size: 30px;   
+    text-align: center;
+    color: white;
+    background: black;
+}
+span{
+    color: red;
+}
+span1{
+    color: blue;
+}
+.knv{
+    width: 400px;
+}
+.img{
+    width: 100px;
+     height: 80px;
+}
+a{
+    color: white;
+}
+ul li{
+    text-align: left;
+}
+@media (max-width: 700px){
+   body{
+    font-size: 12px;
+    }
+   .logo, .knv{
+    width: 200px;
+}
+    .img{
+    width: 50px;
+     height: 40px;
+}
+}
